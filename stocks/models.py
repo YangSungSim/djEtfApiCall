@@ -11,5 +11,5 @@ class stock(models.Model):
     volume = models.BigIntegerField();
 
     def __str__(self):
-        return self.date
+        return str(self.date)
     
